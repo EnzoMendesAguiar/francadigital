@@ -1,6 +1,6 @@
 body{  font-family: "Bitcount Grid Single", system-ui;
 
-background-image: url("https://www.bing.com/th/id/OGC.1466e2935285fde990670259bb71a706?o=7&cb=ucfimgc2&pid=1.7&rm=3&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2fe4%2fbd%2f66%2fe4bd66b2607b90a5b60b6ef3b491fd3e.gif&ehk=szzTm3uAZz73oRCP94GjbpaX%2btY4WfGwFMBin3bULQY%3d");
+background-image: url("https://giffiles.alphacoders.com/112/112567.gif");
 background-repeat: no-repeat;
 background-repeat: no-repeat;   
 background-size: cover;
@@ -30,10 +30,44 @@ color:aqua;
 
     }
 
+body{
+    margin: 0px;
+}
 
+.logo img {
+ width: 96px;
+ height: auto;
+}
 
+.site-header {
+width: 100%;
+box-sizing: border-box;
+padding: 20 px 32px;
+background: #ffff;
+display: flex;
+box-shadow: 0 30px 24px black (0,0,0,00.8);
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+gap: 16px;
+}
 
-
-
-
-
+.informacoes.aluno{
+    font-size: 14px;
+    color: rgb(189, 154, 154);
+    margin-bottom: 4px;
+}
+ 
+.informacoes .titulo{
+    font-size: 18px;
+    margin: 0;
+    color: black;
+}
+.site-nav a{
+    color: darkcyan;
+    text-decoration: none;
+    font-weight: 600;
+}
+.site-nav a:hover{
+    text-decoration: underline;
+}
